@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Gato Perdido </title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p> Um dia eu estava andando pela rua quando vi um pequeno gato perdido, então eu decido pega-lo para cuidar dele, porem o que devo fazer primeiro  </p>
+            <button class="btn-proximo" data-proximo="1"> leva-lo ao veterinario</button>
+            <button class="btn-proximo" data-proximo="2"> Ir direto pra casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Indo ao veterinario a veterinaria te diz quais remedios comprar pro gato, porem voce ja tem alguns em casa, e outros nao, voce prefere voltar pra casa e cuidar dele assim mesmo, ou ir comprar os restantes.</p>
+            <button class="btn-proximo" data-proximo="3"> Ir comprar os demais remedios. </button>
+            <button class="btn-proximo" data-proximo="4"> se contentar com o que ja tem e ir pra casa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Chegando em casa, o gato inicialmente estranha o novo ambiente, porem sai andando por ai. mas ederrepente ele some, onde você deveria procurar</p>
+            <button class="btn-proximo" data-proximo="5">debaixo do sofa</button>
+            <button class="btn-proximo" data-proximo="6">debaixo da cama</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p> Chegando la, você compra todos os remedios que faltam e decide voltar pra casa  </p>
+            <button class="btn-proximo" data-proximo="7"> Voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p> voltando para casa. </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> </p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> Chegando em casa, você deixa o gato conhecer o ambiente, para ele conhecer a casa, porem em um momento de distração ele acaba sumindo, você decide procula-lo, mas por onde?</p>
+            <button class="btn-proximo" data-proximo="9"> debaixo do sofa</button>
+            <button class="btn-proximo" data-proximo="10"> debaixo da cama</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p> Ele estava la debaixo do sofá e não tem mais preocupação</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p> Ele não estava la, volte e procure no outro lugar. </p>
+            <button class="btn-proximo" data-proximo="12"> Retornar e procurar no sofá</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p> Ele estava la debaixo do sofá!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p> você decide procurar debaixo do sofá então, e ele estava la!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
